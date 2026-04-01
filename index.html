@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Human Evolution Clicker</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main class="app">
+      <p class="eyebrow">tiny demo repo</p>
+      <h1>Human Evolution Clicker</h1>
+      <p class="subtitle">Click to evolve from goo to galactic weirdos.</p>
+
+      <section class="card hero">
+        <div>
+          <p class="label">Current form</p>
+          <h2 id="stageName">Primordial Soup</h2>
+          <p id="stageDescription">A suspicious puddle with ambition.</p>
+        </div>
+        <button id="evolveButton" class="evolve-button">Evolve</button>
+      </section>
+
+      <section class="stats-grid">
+        <div class="card stat">
+          <p class="label">Evolution points</p>
+          <p id="points" class="value">0</p>
+        </div>
+        <div class="card stat">
+          <p class="label">Clicks</p>
+          <p id="clicks" class="value">0</p>
+        </div>
+        <div class="card stat">
+          <p class="label">Next unlock</p>
+          <p id="nextUnlock" class="value small">Walking Fish</p>
+        </div>
+      </section>
+
+      <section class="card timeline-wrap">
+        <p class="label">Evolution timeline</p>
+        <div id="timeline" class="timeline"></div>
+      </section>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
