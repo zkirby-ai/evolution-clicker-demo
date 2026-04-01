@@ -8,3 +8,4 @@ A tiny static demo app to smoke-test the build → GitHub → deploy pipeline.
 
 ## Theme
 A silly clicker game where you evolve from primordial soup to space weirdo.
+
